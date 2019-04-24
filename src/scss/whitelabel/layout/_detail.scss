@@ -22,12 +22,13 @@
           width: 60%;
           position: relative;
           padding-top: 30px;
-          padding-bottom: 40%;
+          padding-bottom: 34%;
           border-top-left-radius: .625rem;
           border-bottom-left-radius: .625rem;
           background-size: cover;
-          background-position: center;
+          background-position: 50%;
           background-repeat: no-repeat;
+          z-index: 1;
 
           @media (max-width: 992px - 1px) {
             width: 100%;
@@ -36,6 +37,29 @@
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0;
           }
+        }
+
+        .card-image-product {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          z-index: 100;
+          margin-top: -30px;
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+          z-index: 10;
+          height: 100%;
         }
 
         .card-body {
