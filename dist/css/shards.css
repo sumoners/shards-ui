@@ -11544,6 +11544,11 @@ tbody.collapse.show {
   transition: height 350ms ease-in-out;
 }
 
+.rotate-left {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
 .dropup,
 .dropdown {
   position: relative;
@@ -30752,6 +30757,86 @@ nav#subway-location .subway-location-switch .btn {
   .banner-lgpd-consent__accept {
     margin-top: 16px;
   }
+}
+
+.user-data-lgpd .container {
+  max-width: 700px;
+  margin: 30px auto 0;
+}
+
+.user-data-lgpd div.message {
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #D3D3D3;
+}
+
+.user-data-lgpd div.message p {
+  margin-bottom: 1rem;
+}
+
+.user-data-lgpd div.message i {
+  margin: auto;
+  padding-right: 20px;
+  font-size: 60px;
+}
+
+.user-data-lgpd div.message.alert i {
+  color: #EEAD2D;
+}
+
+.user-data-lgpd div.message.info {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.user-data-lgpd div.message.info i {
+  color: black;
+}
+
+.website-delivery .products-list .card.product-card {
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  min-height: 150px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  color: black;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+}
+
+.website-delivery .products-list .card.product-card .card-body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.website-delivery .products-list .card.product-card .card-body .card-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.website-delivery .products-list .card.product-card .card-body .card-content .product-price {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.website-delivery .products-list .card.product-card .card-body .card-content .product-description {
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.website-delivery .products-list .card.product-card .card-body .card-image {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.website-delivery .products-list .card:hover {
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
 }
 
 a {
