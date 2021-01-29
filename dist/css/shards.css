@@ -26266,6 +26266,54 @@ a.text-black:hover, a.text-black:focus {
   opacity: 1;
 }
 
+.menu-cards-wrapper {
+  padding: 15px;
+  height: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-cards-wrapper .category-menu .btn {
+  background: #157AF6;
+  border-color: #157AF6;
+  border-style: none;
+  color: #FFF;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.menu-cards-wrapper .category-menu .card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-cards-wrapper .category-menu .card-body {
+  padding: 0.5rem;
+}
+
+.menu-cards-wrapper .category-menu .category-name {
+  font-weight: 400;
+  color: #454C59;
+  margin-top: 20px;
+  display: inline-block;
+  border-bottom: solid 3px;
+}
+
+.menu-cards-wrapper .category-menu .product-card-description {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.menu-cards-wrapper .category-menu .product-card-description > h5 {
+  font-size: 1.25rem;
+}
+
 .empty-state {
   width: 100%;
   display: -ms-flexbox;
@@ -26398,6 +26446,11 @@ a.text-black:hover, a.text-black:focus {
 
 .disabled-form {
   opacity: 0.5;
+}
+
+.list-border {
+  border-radius: 0.625rem;
+  box-shadow: 0 0.125rem 9.375rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.5rem rgba(90, 97, 105, 0.12), 0 0.9375rem 1.375rem rgba(90, 97, 105, 0.1), 0 0.4375rem 2.1875rem rgba(165, 182, 201, 0.1);
 }
 
 aside.main-sidebar {

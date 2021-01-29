@@ -1,0 +1,48 @@
+.menu-cards-wrapper {
+  padding: 15px;
+  height: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .category-menu {
+    .btn {
+      background: #157AF6;
+      border-color: #157AF6;
+      border-style: none;
+      color: #FFF;
+      padding: 7px 20px;
+      cursor: pointer;
+    }
+
+    .card {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card-body {
+      padding: 0.5rem;
+    }
+
+    .category-name {
+      font-weight: 400;
+      color: #454C59;
+      margin-top: 20px;
+      display: inline-block;
+      border-bottom: solid 3px;
+    }
+
+    .product-card-description {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-right: 10px;
+      margin-left: 10px;
+
+      > h5 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+}
