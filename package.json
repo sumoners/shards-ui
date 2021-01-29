@@ -1,7 +1,7 @@
 {
   "name": "shards-ui",
   "description": "A free, modern and lightweight Bootstrap 4 UI toolkit for web makers.",
-  "version": "3.0.61",
+  "version": "3.0.65",
   "main": "dist/js/shards",
   "scripts": {
     "start": "npm-run-all --parallel watch serve-dist",
@@ -14,6 +14,7 @@
     "css-compile:main": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/shards.scss dist/css/shards.css",
     "css-minify": "npm-run-all css-minify:main",
     "css-minify:main": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/shards.min.css dist/css/shards.css",
+    "css-compile-all": "npm-run-all css-compile:main css-minify:main",
     "css-prefix": "postcss --config postcss.config.js --replace dist/css/*.css",
     "js": "npm-run-all js-compile",
     "js-compile": "webpack --config webpack.config.js",
