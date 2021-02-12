@@ -30892,6 +30892,33 @@ nav#subway-location .subway-location-switch .btn {
   box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
 }
 
+@media (max-width: 739px) {
+  .website-delivery .shopping-cart-mobile {
+    bottom: -50px;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+    text-align: center;
+    -ms-flex-align: baseline;
+        align-items: baseline;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    z-index: 70;
+  }
+}
+
+@media (min-width: 740px) {
+  .website-delivery .shopping-cart-mobile {
+    display: none;
+  }
+}
+
 a {
   font-weight: 400;
   color: var(--primary);
