@@ -41,4 +41,29 @@
       }
     }
   }
+
+  .shopping-cart-mobile {
+    @media (max-width: 739px) {
+      bottom: -50px;
+      display: flex;
+      height: 50px;
+      position: fixed;
+      width: 100%;
+
+      border-radius: 0;
+
+      text-align: center;
+
+      align-items: baseline;
+      color: white;
+      font-weight: 500;
+      font-size: 1.3rem;
+      justify-content: space-between;
+      z-index: 70;
+    }
+
+    @media (min-width: 740px) {
+      display: none;
+    }
+  }
 }
