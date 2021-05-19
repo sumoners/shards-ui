@@ -9,6 +9,10 @@
     @include button-outline-variant($product-reward);
   }
 
+  &.btn-blue {
+    @include button-variant($blue);
+  }
+
   &.btn-product-offer {
     @include button-variant($product-offer);
   }
