@@ -13,6 +13,10 @@
     @include button-variant($blue);
   }
 
+  &.btn-outline-blue {
+    @include button-outline-variant($blue);
+  }
+
   &.btn-product-offer {
     @include button-variant($product-offer);
   }
