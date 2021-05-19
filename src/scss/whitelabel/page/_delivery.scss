@@ -66,4 +66,10 @@
       display: none;
     }
   }
+
+  .shopping-cart-wrapper {
+    @media (min-width: 740px) {
+      margin-top: 38px;
+    }
+  }
 }
